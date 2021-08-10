@@ -5,14 +5,14 @@ pipeline {
 		stage("compile") {
 			steps {
 				echo "Compiling"
-				bat """ javac hello_world.java """
+				bat """ javac class1.java """
 				}
 			}
 			
 		stage ("run") {
 			steps {
 				echo "Running"
-				bat """ java hello_world Hi Everyone"""
+				bat """ java class1"""
 				}
 			}
 			

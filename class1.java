@@ -1,6 +1,6 @@
-package day6;
 
-public class jdbc{
+
+public class class1{
 
 	
 
